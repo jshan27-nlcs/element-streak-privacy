@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#071424">
+  <meta name="description" content="Element Streak support: gameplay help, troubleshooting, privacy and contact information.">
+  <title>Support | Element Streak</title>
+  <style>
+    :root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif;color:#eaf7ff;background:#071424;font-synthesis:none}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;background:radial-gradient(ellipse 80% 48% at 75% -10%,#144b67 0%,transparent 73%),linear-gradient(180deg,#091b2d,#071424 57%,#071321)}
+    a{color:#76e3ee;text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,summary:focus-visible{outline:2px solid #78edec;outline-offset:4px;border-radius:5px}
+    .shell{max-width:1040px;margin:0 auto;padding:0 28px}.nav{display:flex;align-items:center;justify-content:space-between;padding-top:27px;padding-bottom:26px;gap:16px}.brand{display:flex;gap:12px;align-items:center;font-weight:750;letter-spacing:.07em;font-size:.88rem;color:white;text-decoration:none}.brand:hover{text-decoration:none}.brand-icon{height:36px;width:36px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(145deg,#41c1e9,#134c8a);box-shadow:0 6px 28px #12c4d12a}.nav-links{display:flex;gap:24px;align-items:center;font-size:.89rem;color:#b6c9d7}.nav-links a{color:#b9d0de}
+    main{padding-bottom:64px}.hero{padding:72px 0 62px;position:relative}.eyebrow{display:inline-flex;gap:9px;align-items:center;text-transform:uppercase;font-size:.75rem;font-weight:750;letter-spacing:.18em;color:#85e5ed}.dot{width:7px;height:7px;background:#53e8d6;border-radius:50%;box-shadow:0 0 0 5px #53e8d617}h1{font-size:clamp(2.8rem,7vw,5.1rem);line-height:1.04;letter-spacing:-.065em;max-width:680px;margin:20px 0 18px;font-weight:800}h1 span{background:linear-gradient(90deg,#b9f7fa,#4dccde);background-clip:text;color:transparent}.lede{font-size:1.11rem;line-height:1.7;color:#abc5d4;max-width:650px;margin:0}.hero-art{position:absolute;right:1%;top:50px;opacity:.70;width:220px;height:220px;pointer-events:none;filter:drop-shadow(0 15px 50px #36dbe23b)}
+    .divider{height:1px;background:linear-gradient(90deg,#51bed278,#ffffff14 70%,transparent)}section{margin-top:54px}h2{font-size:1.55rem;letter-spacing:-.035em;margin:0 0 12px}p{line-height:1.7}.section-note{color:#93adbd;font-size:.94rem;margin:0 0 22px}.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.faq{border:1px solid #29506a;background:linear-gradient(150deg,#10273a,#0b1e31);border-radius:15px;overflow:hidden}.faq summary{list-style:none;cursor:pointer;padding:20px 22px;font-size:.97rem;font-weight:650;display:flex;gap:14px;justify-content:space-between;align-items:center}.faq summary::-webkit-details-marker{display:none}.faq summary::after{content:'+';font-size:1.35rem;color:#5bd5e4;font-weight:400}.faq[open] summary::after{content:'−'}.faq p{padding:0 22px 21px;margin:0;font-size:.93rem;color:#b5cad8}.cols{display:grid;grid-template-columns:1.4fr 1fr;gap:18px}.panel{border:1px solid #2e5268;border-radius:18px;padding:28px;background:linear-gradient(135deg,#122e41,#0c2234)}.panel p{color:#aac2d1;margin:8px 0}.steps{padding-left:20px;color:#c3d7e0;line-height:1.9;margin-bottom:0}.tag{font-size:.72rem;font-weight:700;letter-spacing:.12em;color:#74dce9;text-transform:uppercase}.contact{background:linear-gradient(135deg,#143c51,#0d293a);border:1px solid #34677b;border-radius:20px;padding:30px 32px;margin-top:48px;display:flex;align-items:center;justify-content:space-between;gap:20px}.contact h2{margin:9px 0}.contact p{margin:0;color:#bad0dc;font-size:.94rem;max-width:600px}.button{border-radius:11px;display:inline-flex;align-items:center;justify-content:center;gap:9px;background:#6be3e9;color:#072032;padding:13px 18px;font-weight:750;font-size:.87rem;white-space:nowrap}.button:hover{text-decoration:none;background:#a4f6f7}.contact-placeholder{font-size:.84rem;color:#ffe0a1;margin-top:15px!important}.foot{border-top:1px solid #1d3c4d;padding:24px 0 35px;color:#7998aa;font-size:.85rem;display:flex;justify-content:space-between;gap:12px}.foot a{color:#b3d5e4}
+    @media(max-width:740px){.shell{padding:0 20px}.hero{padding:48px 0 43px}.hero-art{opacity:.14;right:0;top:28px;width:150px}.faq-grid,.cols{grid-template-columns:1fr}.contact{flex-direction:column;align-items:flex-start}.nav-links{gap:12px}.nav-links a:first-child{display:none}.foot{flex-direction:column}h1{font-size:3.1rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="shell nav">
+    <a class="brand" href="#top" aria-label="Element Streak home">
+      <span class="brand-icon" aria-hidden="true">
+        <svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75"><path d="M9 3h6M10 3v6L4.7 18a2 2 0 0 0 1.7 3h11.2a2 2 0 0 0 1.7-3L14 9V3"/><path d="M7.2 16h9.6"/><circle cx="11" cy="13" r=".7" fill="white" stroke="none"/></svg>
+      </span>ELEMENT STREAK
+    </a>
+    <nav class="nav-links" aria-label="Page navigation"><a href="#faqs">FAQ</a><a href="#troubleshooting">Troubleshooting</a><a href="#contact">Contact</a></nav>
+  </header>
+  <main class="shell" id="top">
+    <div class="hero">
+      <div class="eyebrow"><span class="dot"></span>OFFICIAL SUPPORT</div>
+      <h1>Make every <span>reaction</span> count.</h1>
+      <p class="lede">Welcome to Element Streak Support. Find quick answers about gameplay, progress, and troubleshooting — so you can get back to the next chain reaction.</p>
+      <svg class="hero-art" viewBox="0 0 240 240" fill="none" aria-hidden="true"><circle cx="120" cy="120" r="82" stroke="#46e1e8" stroke-opacity=".4"/><circle cx="120" cy="120" r="108" stroke="#41b8dc" stroke-opacity=".19"/><path d="M52 120h136M120 52v136" stroke="#6debf1" stroke-opacity=".25" stroke-width="2"/><rect x="86" y="86" width="68" height="68" rx="17" stroke="#89f8f5" stroke-width="4" fill="#124a67"/><text x="120" y="130" fill="#d7ffff" font-family="Arial" text-anchor="middle" font-size="32" font-weight="700">H₂O</text><path d="M120 24v30M120 186v30M24 120h30M186 120h30M52 52l22 22M166 166l22 22M188 52l-22 22M74 166l-22 22" stroke="#90f9f5" stroke-linecap="round" stroke-width="4"/></svg>
+    </div>
+    <div class="divider"></div>
+    <section id="faqs">
+      <h2>Frequently asked questions</h2>
+      <p class="section-note">Answers to the most common questions about Element Streak.</p>
+      <div class="faq-grid">
+        <details class="faq"><summary>How do I play?</summary><p>Swap two adjacent elemental tiles to make valid chemical formulas. Complete each level's objectives while planning moves for chain reactions and higher scores.</p></details>
+        <details class="faq"><summary>How do I unlock more levels?</summary><p>Complete the current level to unlock the next experiment. Element Streak features 60 levels across 10 chemistry-inspired chapters.</p></details>
+        <details class="faq"><summary>What is the Formula Book?</summary><p>The Formula Book keeps track of compounds you discover as you play. Explore their formulas, properties, and real-world uses.</p></details>
+        <details class="faq"><summary>Does the game work offline?</summary><p>Yes. You can play Element Streak without a network connection.</p></details>
+        <details class="faq"><summary>Where is my progress saved?</summary><p>Game progress and preferences are saved locally on your device. They are not automatically synced to other devices.</p></details>
+        <details class="faq"><summary>Can I adjust sound and vibration?</summary><p>Yes. Open Settings inside the game to adjust sound and haptic feedback preferences.</p></details>
+        <details class="faq"><summary>Do I need an account?</summary><p>No. The game does not require you to create an account or sign in.</p></details>
+        <details class="faq"><summary>Are the reactions real chemistry?</summary><p>Element Streak is inspired by chemical formulas and compounds. Its animated effects are designed for gameplay, not to simulate real chemical reactions.</p></details>
+      </div>
+    </section>
+    <section id="troubleshooting">
+      <h2>Troubleshooting</h2>
+      <p class="section-note">Try these basic steps if something does not work as expected.</p>
+      <div class="cols">
+        <div class="panel"><div class="tag">Quick checklist</div><ol class="steps"><li>Close and reopen Element Streak.</li><li>Restart your device if the issue continues.</li><li>Check for an updated version of the app.</li><li>If the issue persists, contact support with the level number and a description of what happened.</li></ol></div>
+        <div class="panel"><div class="tag">Important</div><h2 style="font-size:1.22rem;margin-top:12px">Keep your progress safe</h2><p>Progress is stored on your device. Deleting the app or clearing its stored data may permanently remove your saved progress.</p><p>We recommend avoiding a reinstall unless you understand this risk.</p></div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <div><div class="tag">We're here to help</div><h2>Still need assistance?</h2><p>For technical issues, accessibility feedback, or bug reports, include your device model, app version, and a short description of the issue. Please don't send passwords or sensitive information.</p>
+        <p class="contact-placeholder"><strong>Before publishing:</strong> Replace the placeholder support address below with a real, monitored contact email.</p>
+      </div>
+      <!-- REPLACE BOTH placeholder addresses below before publishing. -->
+      <a class="button" href="mailto:REPLACE_WITH_SUPPORT_EMAIL@example.com?subject=Element%20Streak%20Support">Email support ↗</a>
+    </section>
+  </main>
+  <footer class="shell foot"><span>© 2026 Element Streak. All rights reserved.</span><span><!-- Replace privacy-policy.html with your actual existing Privacy Policy URL. --><a href="privacy-policy.html">Privacy Policy</a> · <a href="#top">Back to top ↑</a></span></footer>
+</body>
+</html>
